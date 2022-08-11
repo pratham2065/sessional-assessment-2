@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="script.js">
 
 <head>
     <meta charset="UTF-8">
@@ -9,112 +10,70 @@
 
     
     <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+     <link rel="stylesheet" href="script.js">   
 
 </head>
 
 <body>
-
-    <!-- ----------------------------  Navigation ---------------------------------------------- -->
-
-    <nav class="nav">
-        <div class="nav-menu flex-row">
-            <div class="nav-brand">
-                <a href="#" class="text-gray">Blooger</a>
-            </div>
-            <div class="toggle-collapse">
-                <div class="toggle-icons">
-                    <i class="fas fa-bars"></i>
+    <div id="hero">
+        
+        <nav class="nav">
+            <div class="nav-menu flex-row">
+                <div class="nav-brand">
+                    <a href="#" class="text-gray">Blooger</a>
                 </div>
-            </div>
-            <div>
-                <ul class="nav-items">
-                    <li class="nav-link">
-                        <a href="#">Home</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">Category</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">Archive</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">Pages</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="social text-gray">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
-    <main>
-
-        <!------------------------ Site Title ---------------------->
-
-        <section class="site-title">
-            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
-                <h3>Tours & Travels</h3>
-                <h1>Amazing Place on Earth</h1>
-                <button class="btn">Explore</button>
-            </div>
-        </section>
-
-        <!------------x----------- Site Title ----------x----------->
-
-        <!-- --------------------- Blog Carousel ----------------- -->
-
-        <section>
-            <div class="blog">
-                <div class="container">
-                    <div class="owl-carousel owl-theme blog-post">
-                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
-                            <img src="/images/post-1.jpg" alt="post-1">
-                            <div class="blog-title">
-                                <h3>London Fashion week's continued the evolution</h3>
-                                <button class="btn btn-blog">Fashion</button>
-                                <span>2 minutes</span>
-                            </div>
-                        </div>
-                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
-                            <img src="/images/post-1.jpg" alt="post-1">
-                            <div class="blog-title">
-                                <h3>London Fashion week's continued the evolution</h3>
-                                <button class="btn btn-blog">Fashion</button>
-                                <span>2 minutes</span>
-                            </div>
-                        </div>
-                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
-                            <img src="/images/post-2.jpg" alt="post-1">
-                            <div class="blog-title">
-                                <h3>London Fashion week's continued the evolution</h3>
-                                <button class="btn btn-blog">Fashion</button>
-                                <span>2 minutes</span>
-                            </div>
-                        </div>
-                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
-                            <img src="/images/post-5.png" alt="post-1">
-                            <div class="blog-title">
-                                <h3>London Fashion week's continued the evolution</h3>
-                                <button class="btn btn-blog">Fashion</button>
-                                <span>2 minutes</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="owl-navigation">
-                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
-                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                <div class="toggle-collapse">
+                    <div class="toggle-icons">
+                        <i class="fas fa-bars"></i>
                     </div>
                 </div>
+                <div>
+                    <ul class="nav-items">
+                        <li class="nav-link">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">Category</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">Archive</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#list">Pages</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#bottom">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+
             </div>
-        </section>
+        </nav>
+
+        <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+        <!----------------------------- Main Site Section ------------------------------>
+        <main>
+
+
+
+            <section class="site-title" id="up">
+                <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Tours & Travels</h3>
+                    <h1>Amazing Place on Earth</h1>
+                    <button class="btn">Explore</button>
+                </div>
+            </section>
+        </main>
+
+
+  
 
 
 
